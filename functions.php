@@ -24,4 +24,28 @@
     }
 
     add_action( 'after_setup_theme','og_init');
+
+    //Projects Post Type
+
+    function og_custom_post_type(){
+        register_post_type( 'project',  
+                array(
+                    'rewrite'=>array('slug'=>'projects'),
+                    'labels'=>array(
+                        'name'=>'Projects',
+                        'singular_name'=>'Project',
+                        'add_new_item'=>'Add New Project',
+                        'edit_item'=>'Edit Project'
+                    ),
+                    'menu-icon'=>'dashicons-clipboard',
+                    'public'=>true,
+                    'has_archive'=>true,
+                    'supports'=>array(
+                        'title', 'thumbnail', 'editor', 'excerpt', 'comments'
+                    )
+                )
+        );
+    }
+
+    add_action( 'init','og_custom_post_type' );
 ?>
