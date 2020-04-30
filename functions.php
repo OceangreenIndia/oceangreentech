@@ -2,7 +2,9 @@
     //Adding Css and Js file
 
     function og_setup(){
+        wp_enqueue_style( "bootstrap", '//stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css' );
         wp_enqueue_style( "style", get_stylesheet_uri( ), null, microtime(), 'all');
+        
         /**
          * first parameter is name of file
          * second for location, get_stylesheet_uri() function locate root of site, 
