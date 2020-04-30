@@ -1,1 +1,1 @@
-alert('helloWorld');
+// A js file
