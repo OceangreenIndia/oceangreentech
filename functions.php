@@ -10,5 +10,7 @@
          * 4th stands for version number, for development purpose microtime() function is added to chaage dev version constanly
          * 5th is device support, all for all device
          */
+
+         wp_enqueue_script( 'main', get_theme_file_uri( 'js/main.js' ) , null, microtime(), true );
     }
 ?>
