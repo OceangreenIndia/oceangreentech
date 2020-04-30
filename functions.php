@@ -2,7 +2,7 @@
     //Adding Css and Js file
 
     function og_setup(){
-        wp_enqueue_style( "style",get_stylesheet_uri(  ), null, microtime(), all );
+        wp_enqueue_style( "style", get_stylesheet_uri( ), null, microtime(), 'all');
         /**
          * first parameter is name of file
          * second for location, get_stylesheet_uri() function locate root of site, 
@@ -14,5 +14,5 @@
          wp_enqueue_script( 'main', get_theme_file_uri( 'js/main.js' ) , null, microtime(), true );
     }
 
-    add_action( 'wp_enqueue_scripts', 'og_setup ' )
+    add_action( 'wp_enqueue_scripts', 'og_setup' )
 ?>
