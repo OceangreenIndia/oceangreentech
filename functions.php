@@ -13,4 +13,6 @@
 
          wp_enqueue_script( 'main', get_theme_file_uri( 'js/main.js' ) , null, microtime(), true );
     }
+
+    add_action( 'wp_enqueue_scripts', 'og_setup ' )
 ?>
