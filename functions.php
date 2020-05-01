@@ -45,6 +45,24 @@
                     )
                 )
         );
+        //Registering new post type FAQ
+        register_post_type( 'faq',  
+                array(
+                    'rewrite'=>array('slug'=>'faqs'),
+                    'labels'=>array(
+                        'name'=>'Faqs',
+                        'singular_name'=>'Faq',
+                        'add_new_item'=>'Add New Faq',
+                        'edit_item'=>'Edit Faq'
+                    ),
+                    'menu-icon'=>'dashicons-clipboard',
+                    'public'=>true,
+                    'has_archive'=>true,
+                    'supports'=>array(
+                        'title', 'editor'
+                    )
+                )
+        );
     }
 
     add_action( 'init','og_custom_post_type' );
