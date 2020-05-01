@@ -1,3 +1,12 @@
 <?php get_header(); ?>
-single.php
+
+<?php
+    //Showing requested page
+    while(have_posts()){
+        the_post();
+        the_post_thumbnail();
+        the_content();
+    }
+?>
+
 <?php get_footer(); ?>
