@@ -32,4 +32,8 @@ body{
         border-bottom: 1px solid #ffffff52;
     }
  }
- 
+ copyrightText.{
+    color: #ffffff69;
+    margin-top: 20px;
+    padding: 20px;
+ }

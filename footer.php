@@ -15,6 +15,13 @@
                         <?php } ?>
                     </div>
                 </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h5 class="copyrightText">Copyright  <?php echo date('Y') ?> Oceangreen Technology</h5>
+                        </div>
+                    </div>
+                </div>
             </section>
         </footer>
         <?php wp_footer(  ) ?>
