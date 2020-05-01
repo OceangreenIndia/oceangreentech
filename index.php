@@ -3,7 +3,7 @@
 <?php
 // Getting content as per post Type
 $args = array(
-    'post_type'=>'project',
+    'post_type'=>'faq',
 );
 
 $blogpost = new WP_Query($args);
