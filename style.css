@@ -19,6 +19,7 @@ body{
 #footer {
     background: #000;
     padding: 10px;
+    padding-top: 100px;
 }
 #footer .list-group-item {
     background: #000;
