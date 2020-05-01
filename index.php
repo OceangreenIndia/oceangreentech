@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <?php
-// Getting content
+// Getting content as per post Type
 while(have_posts( )){
      the_post();
 ?>
