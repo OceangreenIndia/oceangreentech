@@ -17,7 +17,7 @@
                 </div>
                 <div class="container">
                     <div class="row">
-                        <div class="col-12">
+                        <div class="col-12 text-center">
                             <h5 class="copyrightText">Copyright  <?php echo date('Y') ?> Oceangreen Technology</h5>
                         </div>
                     </div>
