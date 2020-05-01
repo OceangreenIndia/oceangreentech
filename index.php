@@ -4,6 +4,7 @@
 // Getting content as per post Type
 $args = array(
     'post_type'=>'faq',
+    'posts_per_page'=>1
 );
 
 $blogpost = new WP_Query($args);
