@@ -3,7 +3,7 @@
 <?php
 // Getting content
 while(have_posts( )){
-     
+     the_post();
 }
 ?>
 
