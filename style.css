@@ -15,3 +15,8 @@ body{
     background: #09f;
 }
 
+/*footer style*/
+#footer {
+    background: #000;
+    padding: 10px;
+}
