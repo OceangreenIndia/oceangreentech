@@ -1,5 +1,8 @@
 ### Difference between a Million and a Billion using time.
 
+|Time|a Million|a Billion|
+|--|--|--|
+
 #### Million
 ```One Million``` represent in numbers as ```10,00,000```.
 ```
