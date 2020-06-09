@@ -4,4 +4,5 @@
 
 here is a [link](https://guides.github.com/features/mastering-markdown/) for Learning resource for writting Markdown files
 
-### Lets Explore Stepby Step
+### Lets Explore Step by Step
+The Most Important files for Creating any Wordpress theme are ```style.css```, ```index.php```.
