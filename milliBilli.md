@@ -8,7 +8,7 @@
 | Day | 11.57 | 1157.40 |
 | Week | 1.65 | 165.34 |
 | Month | 0.38 | 38.05 |
-| Year | 0.031 | 3.17 |
+| Year | ```0.031``` | ```3.17``` |
 
 #### Million
 ```One Million``` represent in numbers as ```10,00,000```.
