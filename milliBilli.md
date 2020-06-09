@@ -1,4 +1,4 @@
-### Difference between a Million and a Billion using time.
+### Difference between a Million and a Billion by time.
 
 |Time|One Million|One Billion|
 |--|--|--|
